@@ -1,0 +1,39 @@
+.highlight {
+    height: 190px;
+    /* background-image: url(../banner.png); */
+    /* background-position: center;
+    background-size: cover; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../banner.png) center / cover no-repeat;
+}
+
+.highlight .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: var(--texto-destaque);
+    text-shadow: -3px -3px 10px black;
+
+}
+
+.highlight_title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: .8rem;
+}
+
+.highlight_subtitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.highlight_button {
+    margin-top: .8rem;
+    border: none;
+    color: var(--texto-destaque);
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: var(--azul-destaque);
+    padding: 1.2rem 1.6rem;
+}

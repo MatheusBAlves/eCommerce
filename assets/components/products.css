@@ -39,9 +39,10 @@
 .section_products {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    row-gap: 4rem;
+    gap: 4rem 2rem;
+    margin-bottom: 5rem;
 }
 
 .product {

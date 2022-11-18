@@ -1,5 +1,5 @@
 .highlight {
-    height: 190px;
+    height: max(190px, 25vw);
     /* background-image: url(../banner.png); */
     /* background-position: center;
     background-size: cover; */

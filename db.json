@@ -53,6 +53,25 @@
       "alt": "Product",
       "section": "Star Wars",
       "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+
+    {
+      
+      "imageUrl": "./assets/babyyoda.png",
+      "price": "100.00",
+      "id": 5,
+      "alt": "Product",
+      "section": "teste",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      
+      "imageUrl": "./assets/kyloren.png",
+      "price": "100.00",
+      "id": 6,
+      "alt": "Product",
+      "section": "undefined",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
     }
   ]
 }

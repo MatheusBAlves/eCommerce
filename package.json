@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusBAlves/eCommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusBAlves/eCommerce/issues"
+  },
+  "homepage": "https://github.com/MatheusBAlves/eCommerce#readme",
+  "description": ""
+}

@@ -39,22 +39,13 @@
 .section_products {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 4rem;
 }
 
-.div_product {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* .div_product:nth-child(3){
-    display: none;
-} */
-
 .product {
-    max-width: calc(96%/2);
+    width: 130px;
 }
 
 .product_img {

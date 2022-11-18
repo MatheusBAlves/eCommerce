@@ -1,0 +1,58 @@
+{
+  "produto": [
+    {
+      "name": "Caneca SW",
+      "imageUrl": "./assets/canecasw.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      "name": "Lego SW",
+      "imageUrl": "./assets/legosw.png",
+      "price": "100.00",
+      "id": 2,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      "name": "Yoda",
+      "imageUrl": "./assets/yoda.png",
+      "price": "100.00",
+      "id": 3,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      "name": "Stormtropper",
+      "imageUrl": "./assets/stormtropper.png",
+      "price": "100.00",
+      "id": 4,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      "name": "Grogu - Baby Yoda",
+      "imageUrl": "./assets/babyyoda.png",
+      "price": "100.00",
+      "id": 5,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      "name": "Kylo Ren",
+      "imageUrl": "./assets/kyloren.png",
+      "price": "100.00",
+      "id": 6,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    }
+  ]
+}

@@ -13,23 +13,31 @@
     />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./variaveis.css" />
+    
+    <link rel="stylesheet" href="./assets/components/inputs.css" />
+    <link rel="stylesheet" href="./assets/components/login.css" />
     <link rel="stylesheet" href="./assets/components/button.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
-    <link rel="stylesheet" href="./assets/components/login.css" />
-    <link rel="stylesheet" href="./assets/components/inputs.css" />
     <link rel="stylesheet" href="./assets/components/contact.css" />
     <link rel="stylesheet" href="./assets/components/footer.css" />
   </head>
   <body>
     <header>
       <nav class="wrapper">
-        <a href="./index.html" class="logo">
-          <img src="./assets/logo.png" alt="logo" class="logo_img" />
-          <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
-        </a>
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./assets/logo.png" alt="logo" class="logo_img" />
+            <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
+          </a>
+        </div>
+          <div class="search_box">
+            <input type="text" class="search" placeholder="O que deseja encontrar?">
+            <img src="./assets/lupa.png" alt="" class="box_lupa">
+          </div>
+        </div>
         <div class="login">
           <a href="./login.html">
-            <button type="submit">Login</button>
+            <button>Login</button>
           </a>
         </div>
         <div class="lupa">
@@ -39,7 +47,7 @@
     </header>
 
     <main>
-      <section class="login">
+      <section class="login_session">
         <div class="wrapper">
           <h3 class="login_title">Iniciar Sessão</h3>
           <form action="" class="login_form">
@@ -94,18 +102,20 @@
                 placeholder="nome"
                 required
               />
-              <!-- <label for="nome" class="label_nome">Nome</label> -->
+              <label for="nome">Nome</label>
             </div>
-            <textarea
-              name="mensagem"
-              id="msg"
-              cols="5"
-              rows="5"
-              placeholder="Escreva sua Mensagem"
-              class="textarea textarea_msg"
-              required
-            ></textarea>
-            <button>Enviar Mensagem</button>
+            <div class="label_float">
+              <textarea
+                name="mensagem"
+                id="msg"
+                cols="5"
+                rows="5"
+                placeholder="Escreva sua Mensagem"
+                class="textarea textarea_msg"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
           </form>
         </div>
       </section>

@@ -1,3 +1,7 @@
+.todos_produtos {
+    background-color: hsl(0, 0%, 95%);
+}
+
 .produtos_superior {
     display: flex;
     align-items: center;
@@ -5,8 +9,49 @@
     margin-bottom: 2rem;
 }
 
+.produtos_title {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.produtos_superior button {
+    padding: 1.2rem 1.6rem;
+}
+
 .produtos {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 4rem 2rem;
+}
+
+.product {
+    position: relative;
+}
+
+.product_img:hover {
+    transform: scale(1);
+}
+
+.product_icon {
+    cursor: pointer;
+    fill: white;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    width: 20px;
+    transition: fill 0.5s ease-in-out;
+}
+
+.product_icon:last-child {
+    right: 5px;
+
+}
+
+.product_icon:hover {
+    fill: cadetblue;
+}
+
+.product_icon:last-child:hover {
+    fill: wheat;
 }

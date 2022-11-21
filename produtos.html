@@ -11,24 +11,106 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script type="module" src="controllers/all-product-controller.js"></script>
+
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./variaveis.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
+    <link rel="stylesheet" href="./assets/components/button.css" />
+    <link rel="stylesheet" href="./assets/components/product.css" />
+    <link rel="stylesheet" href="./assets/components/contact.css" />
     <link rel="stylesheet" href="./assets/produtos/produtos.css" />
   </head>
   <body>
+    <header>
+      <nav class="wrapper">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./assets/logo.png" alt="logo" class="logo_img" />
+            <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
+          </a>
+        </div>
+          <div class="search_box">
+            <input type="text" class="search" placeholder="O que deseja encontrar?">
+            <img src="./assets/lupa.png" alt="" class="box_lupa">
+          </div>
+        </div>
+        <div class="login">
+          <a href="./login.html">
+            <button>Login</button>
+          </a>
+        </div>
+        <div class="lupa">
+          <img src="./assets/lupa.png" alt="" />
+        </div>
+      </nav>
+    </header>
     <main>
-      <div class="wrapper">
-        <div class="produtos_superior">
-          <h2 class="produtos_title">Produtos</h2>
-          <a href="./adicionarProdutos.html">Adicionar produto</a>
+
+      <section class="todos_produtos">
+        <div class="wrapper">
+          <div class="produtos_superior">
+            <h2 class="produtos_title">Produtos</h2>
+            <a href="./adicionarProdutos.html">
+              <button>Adicionar produto</button>
+            </a>
+          </div>
+          <div class="produtos">
+          </div>
         </div>
-        <div class="produtos">
+      </section>
+
+
+      <section class="contact">
+        <div class="wrapper">
+          <div class="referencia">
+            <img src="./assets/logo.png" alt="" />
+            <p><span>Alura</span>Geek</p>
+          </div>
+          <div class="links_uteis">
+            <a href="#">Quem somos nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Programa de fidelidade</a>
+            <a href="#">Nossas lojas</a>
+            <a href="#">Quero ser franqueado</a>
+            <a href="#">Anuncie aqui</a>
+          </div>
+
+          <form class="form">
+            <p>Fale conosco</p>
+            <div class="label_float">
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                class="input input_nome"
+                placeholder="nome"
+                required
+              />
+              <label for="nome">Nome</label>
+            </div>
+            <div class="label_float">
+              <textarea
+                name="mensagem"
+                id="msg"
+                cols="5"
+                rows="5"
+                placeholder="Escreva sua Mensagem"
+                class="textarea textarea_msg"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+          </form>
         </div>
-      </div>
+      </section>
     </main>
 
+    <footer>
+      Desenvolvido por <a href="">Matheus Alves</a>
+      <br />
+      2022
+    </footer>
 
-    <script type="module" src="controllers/all-product-controller.js"></script>
   </body>
 </html>

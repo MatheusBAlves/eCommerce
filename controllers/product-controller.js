@@ -1,4 +1,5 @@
 import { productServices } from "../services/product-services.js";
+
 const newCategory = (category) => {
     const card = document.createElement("div");
     const content = `
@@ -14,6 +15,7 @@ const newCategory = (category) => {
     `;
 
     card.classList.add("categoria");
+    card.id = category;
     card.innerHTML = content;
     return card;
 }
@@ -28,7 +30,7 @@ const renderCategory = async () => {
         productsList.forEach(product => {
             categorias[product.section] = categorias[product.section] ? categorias[product.section] + 1 : 1;
         });
-        console.log(categorias)
+        console.log(categorias);
 
         Object.keys(categorias).forEach(categoria => {
             sectionProducts.appendChild(newCategory(categoria));
@@ -37,7 +39,7 @@ const renderCategory = async () => {
         renderProduct(products);
     }
     catch (err) {
-
+        console.log(err);
     }
 }
 
@@ -51,23 +53,24 @@ const newProduct = (name, price, imageUrl, id) => {
             <p class="product_price">${price}</p>
             <a href="/produto/${id}" class="product_link">Ver Produto</a>
     `;
-    card.classList.add("product")
+    card.classList.add("product");
     card.innerHTML = content;
     return card;
 }
 
 const renderProduct = async (products) => {
     try {
-        console.log(products)
+        console.log(products);
         const productsList = await productServices.productsList();
         products.forEach(category => {
             productsList.forEach(product => {
                 if (category.dataset.product == product.section) {
-                    category.appendChild(newProduct(product.name, product.price, product.imageUrl, product.id));
-                }
+                    if(category.childElementCount < 6){
+                        category.appendChild(newProduct(product.name, product.price, product.imageUrl, product.id));
+                    }
+                };
             });
         })
-
     } catch (err) {
         console.log(err);
     }

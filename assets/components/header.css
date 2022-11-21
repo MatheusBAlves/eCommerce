@@ -8,6 +8,8 @@ nav {
     display: flex;
     gap: .8rem;
     align-items: center;
+    text-decoration: none;
+    color: var(--cinza);
 }
 
 .logo_img {
@@ -23,13 +25,20 @@ nav {
     color: var(--azul-destaque);
 }
 
-.login button{
+header .login button{
     font-size: 1.4rem;
     font-weight: 600;
     padding: .8rem 4rem;
+    cursor: pointer;
     background: none;
     border: 1px solid var(--azul-destaque);
     color: var(--azul-destaque);
+    transition: background-color 0.5s;
+}
+
+header .login button:hover {
+    background-color: var(--azul-destaque);
+    color: white;
 }
 
 .lupa {

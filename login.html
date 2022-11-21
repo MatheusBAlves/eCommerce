@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alura Geek</title>
+    <title>AluraGeek - Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,26 +13,23 @@
     />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./variaveis.css" />
-    
     <link rel="stylesheet" href="./assets/components/button.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
-    <link rel="stylesheet" href="./assets/components/highlight.css" />
-    <link rel="stylesheet" href="./assets/components/products.css" />
+    <link rel="stylesheet" href="./assets/components/login.css" />
+    <link rel="stylesheet" href="./assets/components/inputs.css" />
     <link rel="stylesheet" href="./assets/components/contact.css" />
     <link rel="stylesheet" href="./assets/components/footer.css" />
   </head>
   <body>
     <header>
       <nav class="wrapper">
-        <div class="logo">
-          <a href="./index.html">
-            <img src="./assets/logo.png" alt="logo" class="logo_img" />
-          </a>
+        <a href="./index.html" class="logo">
+          <img src="./assets/logo.png" alt="logo" class="logo_img" />
           <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
-        </div>
+        </a>
         <div class="login">
           <a href="./login.html">
-            <button>Login</button>
+            <button type="submit">Login</button>
           </a>
         </div>
         <div class="lupa">
@@ -42,20 +39,33 @@
     </header>
 
     <main>
-      <section class="highlight">
+      <section class="login">
         <div class="wrapper">
-          <h2 class="highlight_title">Dezembro Promocional</h2>
-          <p class="highlight_subtitle">
-            Produtos selecionados com 33% de desconto
-          </p>
-          <a href="#Console">
-            <button class="highlight_button">Ver Consoles</button>
-          </a>
+          <h3 class="login_title">Iniciar Sessão</h3>
+          <form action="" class="login_form">
+            <div class="label_float">
+              <input
+                type="email"
+                name=""
+                id="email"
+                placeholder="Escreva seu email"
+                class="input input--email"
+                required
+              />
+            </div>
+            <div class="label_float">
+              <input
+                type="password"
+                name=""
+                id="senha"
+                placeholder="Escreva sua senha"
+                class="input input--password"
+                required
+              />
+            </div>
+            <button type="submit" class="login_submit">Entrar</button>
+          </form>
         </div>
-      </section>
-
-      <section class="geral_products wrapper">
-        <div class="section"></div>
       </section>
 
       <section class="contact">
@@ -73,15 +83,16 @@
             <a href="#">Anuncie aqui</a>
           </div>
 
-          <div class="form">
+          <form class="form">
             <p>Fale conosco</p>
             <div class="label_float">
               <input
                 type="text"
                 name="nome"
                 id="nome"
-                class="input_nome"
+                class="input input_nome"
                 placeholder="nome"
+                required
               />
               <!-- <label for="nome" class="label_nome">Nome</label> -->
             </div>
@@ -91,45 +102,19 @@
               cols="5"
               rows="5"
               placeholder="Escreva sua Mensagem"
-              class="textarea_msg"
+              class="textarea textarea_msg"
+              required
             ></textarea>
             <button>Enviar Mensagem</button>
-          </div>
+          </form>
         </div>
       </section>
     </main>
 
     <footer>
-      Desenvolvido por <a href="">Matheus Alves</a>
+      Desenvolvido por <a href="https://github.com/MatheusBAlves">Matheus Alves</a>
       <br />
       2022
     </footer>
-
-    <script type="module" src="./controllers/product-controller.js"></script>
   </body>
 </html>
-
-<!-- TODO para aparecer os produtos, execute "json-server --watch db.json" -->
-
-<!-- <div class="categoria">
-            <div class="section_titles">
-              <h3 class="section_title">Star Wars</h3>
-              <p class="section_more">
-                Ver tudo
-                <img src="./assets/Vector.png" alt="seta" />
-              </p>
-            </div>
-            <div class="section_products" data-product>
-            </div>
-          </div>
-
-          <div class="section_titles">
-            <h3 class="section_title">Console</h3>
-            <p class="section_more">
-              Ver tudo
-              <img src="./assets/Vector.png" alt="seta" />
-            </p>
-          </div>
-          <div class="section_products" data-product>
-
-          </div> -->

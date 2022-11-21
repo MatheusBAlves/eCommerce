@@ -17,3 +17,7 @@ main .login {
     margin-bottom: 2rem;
     color: var(--cinza)
 }
+
+.label_float .input {
+    min-width: 275px;
+}

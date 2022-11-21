@@ -9,18 +9,26 @@
 }
 
 .label_float label {
+    font-size: 1.6rem;
     position: absolute;
-    left: 0;
-    bottom: .5rem;
     color: var(--cinza);
     transition: 0.5s ease-in-out;
 }
 
-.label_float .input {
-    min-width: 275px;
+.label_float .input,
+.label_float .textarea {
     padding: 1.4rem;
+    padding-top: 2rem;
     border: 1px solid transparent;
     outline: none;
+    resize: vertical;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.label_float .input::placeholder,
+.textarea::placeholder {
+   color: transparent;
 }
 
 .label_float .input:focus {
@@ -34,4 +42,22 @@
 
 .login_submit {
     padding: 1rem 3rem;
+}
+
+.input:focus ~ label,
+.input:valid ~ label,
+.textarea:focus ~ label,
+.textarea:valid ~ label{
+    font-size: 1.2rem;
+    opacity: .7;
+    top: 10%;
+}
+
+.input:valid ~ label,
+.textarea:valid ~ label {
+    color: var(--azul-destaque);
+}
+.input:valid,
+.textarea:valid {
+    border-bottom: 1px solid var(--azul-destaque);
 }

@@ -5,7 +5,7 @@
 }
 
 .contact .wrapper {
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     gap: 3.2rem;
@@ -14,6 +14,7 @@
 .referencia {
     align-items: center;
     display: flex;
+    justify-content: center;
     gap: .8rem;
     font-size: 2.4rem;
 }
@@ -60,28 +61,36 @@
 }
 
 .label_float {
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.8rem;
+}
+
+.label_float label {
+    left: 1.5rem;
+    top: 55%;
+    transform: translateY(-50%);
 }
 
 .input_nome {
+    padding-top: 2.5rem;
+}
+
+.input_nome,
+.textarea_msg {
     width: 100%;
-    height: 6rem;
+}
+
+.textarea_msg {
+    min-height: 3rem;
+}
+
+.textarea::placeholder {
+    color: var(--cinza);
 }
 
 .input_nome,
 .textarea_msg {
     padding: .8rem 1.2rem;
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--cinza);
     border-radius: .4rem;
-    background: white;
-    border: none;
-}
-
-.input_nome::placeholder,
-.textarea_msg::placeholder {
-    color: var(--placeholder);
 }
 
 .textarea_msg {
@@ -92,4 +101,44 @@
 .form button {
     width: 15rem;
     height: 4rem;
+}
+
+@media (min-width: 768px) {
+    .contact .wrapper {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+        "r f"
+        "l f";
+        gap: 0 8rem;
+    }
+
+    .referencia{
+        grid-area: r;
+    }
+
+    .links_uteis {
+        grid-area: l;
+        align-items: flex-start;
+    }
+
+    .form {
+        grid-area: f;
+        width: 434px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .contact .wrapper {
+        align-items: flex-start;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+        "r l f";
+        gap: 0 8rem;
+    }
+
+    .form {
+        width: 560px;
+    }
 }

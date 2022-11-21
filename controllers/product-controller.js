@@ -60,12 +60,17 @@ const newProduct = (name, price, imageUrl, id) => {
 
 const renderProduct = async (products) => {
     try {
+        const body = document.querySelector("body");
+        let element = 6;
+        if(body.clientWidth <= 768){
+            element = 4
+        }
         console.log(products);
         const productsList = await productServices.productsList();
         products.forEach(category => {
             productsList.forEach(product => {
                 if (category.dataset.product == product.section) {
-                    if(category.childElementCount < 6){
+                    if (category.childElementCount < element) {
                         category.appendChild(newProduct(product.name, product.price, product.imageUrl, product.id));
                     }
                 };

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./variaveis.css" />
     
+    <link rel="stylesheet" href="./assets/components/inputs.css" />
     <link rel="stylesheet" href="./assets/components/button.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
     <link rel="stylesheet" href="./assets/components/highlight.css" />
@@ -29,6 +30,11 @@
             <img src="./assets/logo.png" alt="logo" class="logo_img" />
           </a>
           <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
+        </div>
+          <div class="search_box">
+            <input type="text" class="search" placeholder="O que deseja encontrar?">
+            <img src="./assets/lupa.png" alt="" class="box_lupa">
+          </div>
         </div>
         <div class="login">
           <a href="./login.html">
@@ -73,28 +79,32 @@
             <a href="#">Anuncie aqui</a>
           </div>
 
-          <div class="form">
+          <form class="form">
             <p>Fale conosco</p>
             <div class="label_float">
               <input
                 type="text"
                 name="nome"
                 id="nome"
-                class="input_nome"
+                class="input input_nome"
                 placeholder="nome"
+                required
               />
-              <!-- <label for="nome" class="label_nome">Nome</label> -->
+              <label for="nome">Nome</label>
             </div>
-            <textarea
-              name="mensagem"
-              id="msg"
-              cols="5"
-              rows="5"
-              placeholder="Escreva sua Mensagem"
-              class="textarea_msg"
-            ></textarea>
-            <button>Enviar Mensagem</button>
-          </div>
+            <div class="label_float">
+              <textarea
+                name="mensagem"
+                id="msg"
+                cols="5"
+                rows="5"
+                placeholder="Escreva sua Mensagem"
+                class="textarea textarea_msg"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+          </form>
         </div>
       </section>
     </main>

@@ -1,0 +1,41 @@
+.add_product {
+    background: var(--placeholder);
+}
+
+.add_product .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.add_product_title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--cinza);
+    margin-block: 1.6rem;
+}
+
+.new_product,
+.new_product .input,
+.new_product .button {
+    width: 100%;
+}
+
+.new_product .button {
+    padding-block: 1.6rem;
+}
+
+header .login button {
+    padding: 0.8rem 1rem;
+}
+
+@media (min-width: 769px) {
+    header .login button {
+        padding: 0.8rem 4rem;
+    }
+    .add_product .wrapper {
+        align-items: center;
+        width: 50%;
+    }
+}

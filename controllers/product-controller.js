@@ -51,7 +51,7 @@ const newProduct = (name, price, imageUrl, id) => {
             <img src="${imageUrl}" alt="img" class="product_img"/>
             <h4 class="product_title">${name}</h4>
             <p class="product_price">${price}</p>
-            <a href="/produto/${id}" class="product_link">Ver Produto</a>
+            <a href="/produto.html?id=${id}" class="product_link">Ver Produto</a>
     `;
     card.classList.add("product");
     card.innerHTML = content;
@@ -62,9 +62,9 @@ const renderProduct = async (products) => {
     try {
         const body = document.querySelector("body");
         let element = 6;
-        if(body.clientWidth <= 768){
-            element = 4
-        }
+        // if(body.clientWidth <= 768){
+        //     element = 4
+        // }
         console.log(products);
         const productsList = await productServices.productsList();
         products.forEach(category => {

@@ -50,15 +50,16 @@
       <section class="login_session">
         <div class="wrapper">
           <h3 class="login_title">Iniciar Sessão</h3>
-          <form action="" class="login_form">
+          <form action="" class="login_form" data-form>
             <div class="label_float">
               <input
                 type="email"
                 name=""
                 id="email"
                 placeholder="Escreva seu email"
-                class="input input--email"
+                class="input input_session input--email"
                 required
+                data-email
               />
             </div>
             <div class="label_float">
@@ -67,11 +68,12 @@
                 name=""
                 id="senha"
                 placeholder="Escreva sua senha"
-                class="input input--password"
+                class="input input_session input--password"
                 required
+                data-password
               />
             </div>
-            <button type="submit" class="login_submit">Entrar</button>
+            <button type="submit" class="button login_submit">Entrar</button>
           </form>
         </div>
       </section>
@@ -126,5 +128,7 @@
       <br />
       2022
     </footer>
+
+    <script type="module" src="./assets/js/login.js"></script>
   </body>
 </html>

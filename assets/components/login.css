@@ -18,11 +18,11 @@
     color: var(--cinza)
 }
 
-.login_session .input {
+.login_session .input_session {
     width: 275px;
 }
 
-.login_session .input::placeholder {
+.login_session .input.input_session::placeholder {
     color: var(--cinza);
 }
 
@@ -32,7 +32,7 @@
         font-size: 2rem;
     }
 
-    .login_session .input,
+    .login_session .input.input_session,
     .login_submit {
         width: 425px;
     }

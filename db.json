@@ -161,6 +161,18 @@
       "alt": "Product",
       "section": "Diversos",
       "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+    },
+    {
+      "name": "QCY QT1",
+      "imageUrl": "https://cdn.awsli.com.br/1000x1000/2394/2394160/produto/151707908/ec863ab0a8.jpg",
+      "price": "134",
+      "section": "Fone",
+      "description": "Fone bluetooth",
+      "id": 19
     }
-  ]
+  ],
+  "users": {
+    "email": "admin@admin.com",
+    "password": "admin"
+  }
 }

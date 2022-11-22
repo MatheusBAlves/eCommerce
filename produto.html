@@ -13,9 +13,10 @@
     />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./variaveis.css" />
+    <link rel="stylesheet" href="./assets/add_product.css" />
+    <link rel="stylesheet" href="./assets/components/inputs.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
-    <link rel="stylesheet" href="./assets/components/highlight.css" />
-    <link rel="stylesheet" href="./assets/components/products.css" />
+    <link rel="stylesheet" href="./assets/components/aboutProduct.css" />
     <link rel="stylesheet" href="./assets/components/contact.css" />
     <link rel="stylesheet" href="./assets/components/footer.css" />
   </head>
@@ -25,17 +26,22 @@
         <div class="logo">
           <a href="./index.html">
             <img src="./assets/logo.png" alt="logo" class="logo_img" />
-            <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
+            <p class="logo_text">
+              <span class="logo_text_blue">Alura</span>Geek
+            </p>
           </a>
         </div>
-          <div class="search_box">
-            <input type="text" class="search" placeholder="O que deseja encontrar?">
-            <img src="./assets/lupa.png" alt="" class="box_lupa">
-          </div>
+        <div class="search_box">
+          <input
+            type="text"
+            class="search"
+            placeholder="O que deseja encontrar?"
+          />
+          <img src="./assets/lupa.png" alt="" class="box_lupa" />
         </div>
         <div class="login">
-          <a href="./login.html">
-            <button>Login</button>
+          <a href="./produtos.html">
+            <button>Menu administrador</button>
           </a>
         </div>
         <div class="lupa">
@@ -45,20 +51,22 @@
     </header>
 
     <main>
-      <section class="highlight">
+      <section class="main_product">
         <div class="wrapper">
-          <h2 class="highlight_title">Dezembro Promocional</h2>
-          <p class="highlight_subtitle">
-            Produtos selecionados com 33% de desconto
-          </p>
-          <a href="#Console">
-            <button class="button highlight_button">Ver Consoles</button>
-          </a>
+          <img src="./assets/stormtropper.png" alt="" class="main_img" />
+          <div class="wrapper_text">
+            <h2 class="main_product_title">Produto XYZ</h2>
+            <p class="main_product_price">R$ 60,00</p>
+            <p class="main_product_description">
+              Voluptas voluptatum quibusdam similique, class debitis alias
+              maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis,
+              minima malesuada habitasse distinctio sequi aliqua malesuada.
+              Quisque deleniti proin expedita, aliquid litora. Iste recusandae?
+              Commodo, quia ridiculus doloribus vero dictum? Penatibus donec
+              placeat faucibus, dolorum do. Animi porta anim magnam
+            </p>
+          </div>
         </div>
-      </section>
-
-      <section class="geral_products wrapper">
-        <div class="section"></div>
       </section>
 
       <section class="contact">
@@ -112,31 +120,6 @@
       2022
     </footer>
 
-    <script type="module" src="./controllers/product-controller.js"></script>
+    <script type="module" src="./controllers/newProduct-controller.js"></script>
   </body>
 </html>
-
-<!-- TODO para aparecer os produtos, execute "json-server --watch db.json" -->
-
-<!-- <div class="categoria">
-            <div class="section_titles">
-              <h3 class="section_title">Star Wars</h3>
-              <p class="section_more">
-                Ver tudo
-                <img src="./assets/Vector.png" alt="seta" />
-              </p>
-            </div>
-            <div class="section_products" data-product>
-            </div>
-          </div>
-
-          <div class="section_titles">
-            <h3 class="section_title">Console</h3>
-            <p class="section_more">
-              Ver tudo
-              <img src="./assets/Vector.png" alt="seta" />
-            </p>
-          </div>
-          <div class="section_products" data-product>
-
-          </div> -->

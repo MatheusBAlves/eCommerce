@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./variaveis.css" />
+    <link rel="stylesheet" href="./assets/add_product.css" />
+    <link rel="stylesheet" href="./assets/components/inputs.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
     <link rel="stylesheet" href="./assets/components/highlight.css" />
     <link rel="stylesheet" href="./assets/components/products.css" />
@@ -25,17 +27,22 @@
         <div class="logo">
           <a href="./index.html">
             <img src="./assets/logo.png" alt="logo" class="logo_img" />
-            <p class="logo_text"><span class="logo_text_blue">Alura</span>Geek</p>
+            <p class="logo_text">
+              <span class="logo_text_blue">Alura</span>Geek
+            </p>
           </a>
         </div>
-          <div class="search_box">
-            <input type="text" class="search" placeholder="O que deseja encontrar?">
-            <img src="./assets/lupa.png" alt="" class="box_lupa">
-          </div>
+        <div class="search_box">
+          <input
+            type="text"
+            class="search"
+            placeholder="O que deseja encontrar?"
+          />
+          <img src="./assets/lupa.png" alt="" class="box_lupa" />
         </div>
         <div class="login">
-          <a href="./login.html">
-            <button>Login</button>
+          <a href="./produtos.html">
+            <button>Menu administrador</button>
           </a>
         </div>
         <div class="lupa">
@@ -45,20 +52,73 @@
     </header>
 
     <main>
-      <section class="highlight">
+      <section class="add_product">
         <div class="wrapper">
-          <h2 class="highlight_title">Dezembro Promocional</h2>
-          <p class="highlight_subtitle">
-            Produtos selecionados com 33% de desconto
-          </p>
-          <a href="#Console">
-            <button class="button highlight_button">Ver Consoles</button>
-          </a>
+          <h2 class="add_product_title">Adicionar novo produto</h2>
+          <form class="new_product" data-form>
+            <div class="label_float">
+              <input
+                class="input"
+                type="text"
+                name="img"
+                id="img"
+                data-img
+                placeholder="URL da imagem"
+                required
+              />
+              <label for="img">URL da imagem</label>
+            </div>
+            <div class="label_float">
+              <input
+                class="input"
+                type="text"
+                name="section"
+                id="section"
+                data-section
+                placeholder="Sessao"
+                required
+              />
+              <label for="section">Categoria</label>
+            </div>
+            <div class="label_float">
+              <input
+                class="input"
+                type="text"
+                name="product"
+                id="product"
+                data-product
+                placeholder="Produto"
+                required
+              />
+              <label for="product">Nome do Produto</label>
+            </div>
+            <div class="label_float">
+              <input
+                class="input"
+                type="number"
+                name="price"
+                id="price"
+                data-price
+                placeholder="Preço"
+                required
+              />
+              <label for="price">Preço do produto</label>
+            </div>
+            <div class="label_float">
+              <input
+                class="input"
+                type="text"
+                name="description"
+                id="description"
+                data-description
+                placeholder="Descrição do produto"
+                required
+              />
+              <label for="description">Descrição do produto</label>
+            </div>
+            <button type="submit" class="button">Adicionar produto</button>
+          </form>
         </div>
-      </section>
-
-      <section class="geral_products wrapper">
-        <div class="section"></div>
       </section>
 
       <section class="contact">
@@ -112,31 +172,9 @@
       2022
     </footer>
 
-    <script type="module" src="./controllers/product-controller.js"></script>
+    <script
+      type="module"
+      src="./controllers/newProduct-controller.js"
+    ></script>
   </body>
 </html>
-
-<!-- TODO para aparecer os produtos, execute "json-server --watch db.json" -->
-
-<!-- <div class="categoria">
-            <div class="section_titles">
-              <h3 class="section_title">Star Wars</h3>
-              <p class="section_more">
-                Ver tudo
-                <img src="./assets/Vector.png" alt="seta" />
-              </p>
-            </div>
-            <div class="section_products" data-product>
-            </div>
-          </div>
-
-          <div class="section_titles">
-            <h3 class="section_title">Console</h3>
-            <p class="section_more">
-              Ver tudo
-              <img src="./assets/Vector.png" alt="seta" />
-            </p>
-          </div>
-          <div class="section_products" data-product>
-
-          </div> -->

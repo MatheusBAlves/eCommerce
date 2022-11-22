@@ -17,6 +17,7 @@
 
 .label_float .input,
 .label_float .textarea {
+    border-radius: 4px;
     padding: 1.4rem;
     padding-top: 2rem;
     border: 1px solid transparent;

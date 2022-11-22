@@ -1,4 +1,5 @@
 .product {
+    display: grid;
     width: 130px;
 }
 

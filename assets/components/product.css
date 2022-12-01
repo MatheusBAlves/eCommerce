@@ -4,6 +4,7 @@
 }
 
 .product_img {
+    min-height: 12rem;
     width: 100%;
     margin-bottom: .8rem;
     transition: transform .4s ease-in-out;

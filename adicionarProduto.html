@@ -41,7 +41,7 @@
           <img src="./assets/lupa.png" alt="" class="box_lupa" />
         </div>
         <div class="login">
-          <a href="./produtos.html">
+          <a href="./produtosAdmin.html">
             <button>Menu administrador</button>
           </a>
         </div>
@@ -55,14 +55,14 @@
       <section class="add_product">
         <div class="wrapper">
           <h2 class="add_product_title">Adicionar novo produto</h2>
-          <form class="new_product" data-form>
+          <form class="new_product" data-product="form">
             <div class="label_float">
               <input
                 class="input"
                 type="text"
                 name="img"
                 id="img"
-                data-img
+                data-product="img"
                 placeholder="URL da imagem"
                 required
               />
@@ -74,7 +74,7 @@
                 type="text"
                 name="section"
                 id="section"
-                data-section
+                data-product="section"
                 placeholder="Sessao"
                 required
               />
@@ -86,7 +86,7 @@
                 type="text"
                 name="product"
                 id="product"
-                data-product
+                data-product="product"
                 placeholder="Produto"
                 required
               />
@@ -98,9 +98,10 @@
                 type="number"
                 name="price"
                 id="price"
-                data-price
+                data-product="price"
                 placeholder="Preço"
                 required
+                
               />
               <label for="price">Preço do produto</label>
             </div>
@@ -110,13 +111,13 @@
                 type="text"
                 name="description"
                 id="description"
-                data-description
+                data-product="description"
                 placeholder="Descrição do produto"
                 required
               />
               <label for="description">Descrição do produto</label>
             </div>
-            <button type="submit" class="button">Adicionar produto</button>
+            <button type="submit" class="button product_button">Adicionar produto</button>
           </form>
         </div>
       </section>
@@ -151,6 +152,7 @@
             </div>
             <div class="label_float">
               <textarea
+              data="contact text"
                 name="mensagem"
                 id="msg"
                 cols="5"
@@ -176,5 +178,6 @@
       type="module"
       src="./controllers/newProduct-controller.js"
     ></script>
+    <script type="module" src="./assets/js/validacoes/app.js"></script>
   </body>
 </html>

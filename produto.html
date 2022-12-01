@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/add_product.css" />
     <link rel="stylesheet" href="./assets/components/inputs.css" />
     <link rel="stylesheet" href="./assets/components/header.css" />
+    <link rel="stylesheet" href="./assets/components/products.css" />
     <link rel="stylesheet" href="./assets/components/aboutProduct.css" />
     <link rel="stylesheet" href="./assets/components/contact.css" />
     <link rel="stylesheet" href="./assets/components/footer.css" />
@@ -40,8 +41,8 @@
           <img src="./assets/lupa.png" alt="" class="box_lupa" />
         </div>
         <div class="login">
-          <a href="./produtos.html">
-            <button>Menu administrador</button>
+          <a href="./login.html">
+            <button>Login</button>
           </a>
         </div>
         <div class="lupa">
@@ -51,23 +52,20 @@
     </header>
 
     <main>
-      <section class="main_product">
+      <div class="section_main">
+        
+      </div>
+
+      <div class="produtos-similares">
         <div class="wrapper">
-          <img src="./assets/stormtropper.png" alt="" class="main_img" />
-          <div class="wrapper_text">
-            <h2 class="main_product_title">Produto XYZ</h2>
-            <p class="main_product_price">R$ 60,00</p>
-            <p class="main_product_description">
-              Voluptas voluptatum quibusdam similique, class debitis alias
-              maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis,
-              minima malesuada habitasse distinctio sequi aliqua malesuada.
-              Quisque deleniti proin expedita, aliquid litora. Iste recusandae?
-              Commodo, quia ridiculus doloribus vero dictum? Penatibus donec
-              placeat faucibus, dolorum do. Animi porta anim magnam
-            </p>
+          <h3 class="produtos-similares_title">Produtos similares</h3>
+          <div class="section_products">
+
           </div>
         </div>
-      </section>
+      </div>
+
+      
 
       <section class="contact">
         <div class="wrapper">
@@ -120,6 +118,6 @@
       2022
     </footer>
 
-    <script type="module" src="./controllers/newProduct-controller.js"></script>
+    <script type="module" src="./controllers/productDetail.js"></script>
   </body>
 </html>

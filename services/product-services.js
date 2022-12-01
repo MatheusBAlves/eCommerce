@@ -24,7 +24,8 @@ const createProduct = (name, imageUrl, price, section, description) => {
 //READ
 const productsList = () => fetch("http://localhost:3000/produto").then(res => res.json());
 
-const productDetail = (id) => fetch(`http://localhost:3000/produto/${id}`).then(res => res.json());
+const productDetailId = (id) => fetch(`http://localhost:3000/produto/${id}`).then(res => res.json());
+
 
 //UPDATE
 
@@ -60,6 +61,6 @@ export const productServices = {
     productsList,
     createProduct,
     deleteProduct,
-    productDetail,
+    productDetailId,
     updateProduct
 }

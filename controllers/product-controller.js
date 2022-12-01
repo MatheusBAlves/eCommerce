@@ -30,7 +30,6 @@ const renderCategory = async () => {
         productsList.forEach(product => {
             categorias[product.section] = categorias[product.section] ? categorias[product.section] + 1 : 1;
         });
-        console.log(categorias);
 
         Object.keys(categorias).forEach(categoria => {
             sectionProducts.appendChild(newCategory(categoria));
@@ -65,7 +64,6 @@ const renderProduct = async (products) => {
         // if(body.clientWidth <= 768){
         //     element = 4
         // }
-        console.log(products);
         const productsList = await productServices.productsList();
         products.forEach(category => {
             productsList.forEach(product => {

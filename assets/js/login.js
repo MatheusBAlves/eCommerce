@@ -10,7 +10,7 @@ form.addEventListener('submit', async (e) => {
 
         const users = await userServices.userList();
         if (email.value == users.email && password.value == users.password) {
-            window.location.href = "http://127.0.0.1:5500/produtos.html"
+            window.location.href = "http://127.0.0.1:5500/produtosAdmin.html"
         } else {
             window.alert("Dados incorretos!");
             email.value = "";

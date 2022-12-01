@@ -65,6 +65,7 @@
 
 .label_float {
     margin-bottom: 1.8rem;
+    box-sizing: border-box;
 }
 
 .label_float label {
@@ -99,6 +100,14 @@
 .textarea_msg {
     margin-bottom: .8rem;
     resize: vertical;
+}
+
+.contact_error_message{
+    color: red;
+    display: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 1.5rem;
 }
 
 .form button {

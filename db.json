@@ -7,7 +7,7 @@
       "id": 1,
       "alt": "Product",
       "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos amet sequi illum quia magnam, nisi fuga maxime. Sint blanditiis sequi saepe repellendus repellat. A praesentium aliquam odit cum quia deserunt consectetur accusantium, eum nostrum consequatur velit pariatur ipsa ipsam non ad iste quibusdam, distinctio rerum doloribus! Aliquam totam quisquam accusamus odio, a itaque, earum facilis minus magni, iure consequuntur voluptatum!"
     },
     {
       "name": "Lego SW",
@@ -31,19 +31,17 @@
       "name": "Stormtropper",
       "imageUrl": "./assets/stormtropper.png",
       "price": "100.00",
-      "id": 4,
-      "alt": "Product",
       "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+      "id": 4
     },
     {
       "name": "Grogu - Baby Yoda",
       "imageUrl": "./assets/babyyoda.png",
       "price": "100.00",
-      "id": 5,
-      "alt": "Product",
       "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+      "id": 5
     },
     {
       "name": "Kylo Ren",
@@ -169,6 +167,24 @@
       "section": "Fone",
       "description": "Fone bluetooth",
       "id": 19
+    },
+    {
+      "name": "prodsadas",
+      "imageUrl": "t",
+      "price": "1232",
+      "id": 20,
+      "alt": "Product",
+      "section": "product",
+      "description": "Fone"
+    },
+    {
+      "name": "name2",
+      "imageUrl": "url2",
+      "price": "2",
+      "id": 21,
+      "alt": "Product",
+      "section": "cat2",
+      "description": "desc2"
     }
   ],
   "users": {

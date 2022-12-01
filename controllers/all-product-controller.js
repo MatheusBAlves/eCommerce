@@ -12,7 +12,7 @@ const newProduct = (name, category, price, imageUrl, id) => {
                         Excluir
                     </button>
                     <button class="button_product button_product--edit">
-                    <a href="atualizaProduto.html?id=${id}" alt="">Editar</a>
+                    <a href="adicionarProduto.html?id=${id}" alt="">Editar</a>
                     </button>
                 </div>
             </div>

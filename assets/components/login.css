@@ -22,9 +22,6 @@
     width: 275px;
 }
 
-.login_session .input.input_session::placeholder {
-    color: var(--cinza);
-}
 
 @media (min-width: 1200px) {
 

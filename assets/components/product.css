@@ -38,6 +38,7 @@
     font-size: 1.4rem;
     font-weight: 700;
     transition: border .5s;
+    width: fit-content;
 }
 
 .product_link:hover {

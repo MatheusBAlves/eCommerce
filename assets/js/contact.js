@@ -21,21 +21,21 @@ function createContact() {
             <p>Fale conosco</p>
             <div class="label_float">
               <input
-                data-contact="name"
+                data-tipo="contact_name"
                 type="text"
                 name="nome"
                 id="nome"
                 class="input input_nome"
                 placeholder="nome"
                 required
-                maxlength="40"
+                
               />
               <label for="nome">Nome</label>
-              <span class="contact_error_message">Este campo não é válido</span>
+              <span class="input_error_message">Este campo não é válido</span>
             </div>
             <div class="label_float">
               <textarea
-                data-contact="text"
+                data-tipo="contact_text"
                 name="mensagem"
                 id="msg"
                 cols="5"
@@ -43,11 +43,10 @@ function createContact() {
                 placeholder="Escreva sua Mensagem"
                 class="textarea textarea_msg"
                 required
-                maxlength="120"
               ></textarea>
-              <span class="contact_error_message">Este campo não é válido</span>
+              <span class="input_error_message">Este campo não é válido</span>
             </div>
-            <button type="submit" class="button">Enviar Mensagem</button>
+            <button class="button contact-button">Enviar Mensagem</button>
           </form>
           </div>
     `;

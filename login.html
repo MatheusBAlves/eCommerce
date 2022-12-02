@@ -59,8 +59,10 @@
                 placeholder="Escreva seu email"
                 class="input input_session input--email"
                 required
-                data-email
+                data-tipo="login_email"
               />
+              <label for="email">Escreva seu email</label>
+              <span class="input_error_message"></span>
             </div>
             <div class="label_float">
               <input
@@ -70,8 +72,10 @@
                 placeholder="Escreva sua senha"
                 class="input input_session input--password"
                 required
-                data-password
+                data-tipo="login_password"
               />
+              <label for="senha">Escreva sua senha</label>
+              <span class="input_error_message">Teste</span>
             </div>
             <button type="submit" class="button login_submit">Entrar</button>
           </form>
@@ -129,6 +133,7 @@
       2022
     </footer>
 
+    <script type="module" src="./assets/js/validacoes/app.js"></script>
     <script type="module" src="./assets/js/login.js"></script>
   </body>
 </html>

@@ -21,11 +21,10 @@
     {
       "name": "Yoda",
       "imageUrl": "./assets/yoda.png",
-      "price": "100.00",
-      "id": 3,
-      "alt": "Product",
+      "price": "1300",
       "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+      "id": 3
     },
     {
       "name": "Stormtropper",
@@ -170,21 +169,12 @@
     },
     {
       "name": "prodsadas",
-      "imageUrl": "t",
+      "imageUrl": "",
       "price": "1232",
       "id": 20,
       "alt": "Product",
       "section": "product",
       "description": "Fone"
-    },
-    {
-      "name": "name2",
-      "imageUrl": "url2",
-      "price": "2",
-      "id": 21,
-      "alt": "Product",
-      "section": "cat2",
-      "description": "desc2"
     }
   ],
   "users": {

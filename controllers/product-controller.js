@@ -5,10 +5,10 @@ const newCategory = (category) => {
     const content = `
     <div class="section_titles">
         <h3 class="section_title">${category}</h3>
-        <p class="section_more">
+        <a href="/todosProdutos.html" class="section_more">
             Ver tudo
             <img src="./assets/Vector.png" alt="seta" />
-        </p>
+        </a>
     </div>
     <div class="section_products" id="${category}" data-product="${category}"">
     </div>

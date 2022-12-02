@@ -46,7 +46,7 @@ else {
 
         productServices.updateProduct(product.value, url.value, price.value, id, section.value, description.value)
             .then(() => {
-                window.location.href = "produtosAdmin.html"
+                window.location.href = "todosProdutos.html?id=1"
             })
     })
 }

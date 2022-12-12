@@ -22,7 +22,7 @@ const createProduct = (name, imageUrl, price, section, description) => {
 }
 
 //READ
-const productsList = () => fetch("https://matheusbalves.github.io/eCommerce/db.json/produto").then(res => res.json());
+const productsList = () => fetch("https://matheusbalves.github.io/eCommerce/db.json").then(res => res.json());
 
 const productDetailId = (id) => fetch(`https://matheusbalves.github.io/eCommerce/db.json/produto/${id}`).then(res => res.json());
 

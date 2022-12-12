@@ -1,182 +1,176 @@
-{
-  "produto": [
-    {
-      "name": "Caneca SW",
-      "imageUrl": "./assets/canecasw.png",
-      "price": "100.00",
-      "id": 1,
-      "alt": "Product",
-      "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos amet sequi illum quia magnam, nisi fuga maxime. Sint blanditiis sequi saepe repellendus repellat. A praesentium aliquam odit cum quia deserunt consectetur accusantium, eum nostrum consequatur velit pariatur ipsa ipsam non ad iste quibusdam, distinctio rerum doloribus! Aliquam totam quisquam accusamus odio, a itaque, earum facilis minus magni, iure consequuntur voluptatum!"
-    },
-    {
-      "name": "Lego SW",
-      "imageUrl": "./assets/legosw.png",
-      "price": "100.00",
-      "id": 2,
-      "alt": "Product",
-      "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Yoda",
-      "imageUrl": "./assets/yoda.png",
-      "price": "1300",
-      "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
-      "id": 3
-    },
-    {
-      "name": "Stormtropper",
-      "imageUrl": "./assets/stormtropper.png",
-      "price": "100.00",
-      "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
-      "id": 4
-    },
-    {
-      "name": "Grogu - Baby Yoda",
-      "imageUrl": "./assets/babyyoda.png",
-      "price": "100.00",
-      "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
-      "id": 5
-    },
-    {
-      "name": "Kylo Ren",
-      "imageUrl": "./assets/kyloren.png",
-      "price": "100.00",
-      "id": 6,
-      "alt": "Product",
-      "section": "Star Wars",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Controle Xbox",
-      "imageUrl": "./assets/jsxbox.png",
-      "price": "100.00",
-      "id": 7,
-      "alt": "Product",
-      "section": "Console",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "PS5",
-      "imageUrl": "./assets/ps5.png",
-      "price": "100.00",
-      "id": 8,
-      "alt": "Product",
-      "section": "Console",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "SNES",
-      "imageUrl": "./assets/snes.png",
-      "price": "100.00",
-      "id": 9,
-      "alt": "Product",
-      "section": "Console",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Controle Switch",
-      "imageUrl": "./assets/switch.png",
-      "price": "100.00",
-      "id": 10,
-      "alt": "Product",
-      "section": "Console",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Xbox",
-      "imageUrl": "./assets/console.png",
-      "price": "100.00",
-      "id": 11,
-      "alt": "Product",
-      "section": "Console",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "GameBoy",
-      "imageUrl": "./assets/gba.png",
-      "price": "100.00",
-      "id": 12,
-      "alt": "Product",
-      "section": "Console",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Camiseta Atari",
-      "imageUrl": "./assets/atari.png",
-      "price": "100.00",
-      "id": 13,
-      "alt": "Product",
-      "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Camisa SNES",
-      "imageUrl": "./assets/camisasnes.png",
-      "price": "100.00",
-      "id": 14,
-      "alt": "Product",
-      "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Boneco Sonic",
-      "imageUrl": "./assets/sonic.png",
-      "price": "100.00",
-      "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
-      "id": 15
-    },
-    {
-      "name": "Relógio",
-      "imageUrl": "./assets/relogio.png",
-      "price": "100.00",
-      "id": 16,
-      "alt": "Product",
-      "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Óculos VR",
-      "imageUrl": "./assets/vr.png",
-      "price": "100.00",
-      "id": 17,
-      "alt": "Product",
-      "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "Pikachu",
-      "imageUrl": "./assets/pikachu.png",
-      "price": "100.00",
-      "id": 18,
-      "alt": "Product",
-      "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
-    },
-    {
-      "name": "QCY QT1",
-      "imageUrl": "https://cdn.awsli.com.br/1000x1000/2394/2394160/produto/151707908/ec863ab0a8.jpg",
-      "price": "134",
-      "section": "Fone",
-      "description": "Fone bluetooth",
-      "id": 19
-    },
-    {
-      "name": "Teste de produto",
-      "imageUrl": "yasmim",
-      "price": "1232",
-      "section": "product",
-      "description": "Fone",
-      "id": 20
-    }
-  ],
-  "users": {
-    "email": "admin@admin.com",
-    "password": "admin"
+[
+  {
+    "name": "Caneca SW",
+    "imageUrl": "./assets/canecasw.png",
+    "price": "100.00",
+    "id": 1,
+    "alt": "Product",
+    "section": "Star Wars",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos amet sequi illum quia magnam, nisi fuga maxime. Sint blanditiis sequi saepe repellendus repellat. A praesentium aliquam odit cum quia deserunt consectetur accusantium, eum nostrum consequatur velit pariatur ipsa ipsam non ad iste quibusdam, distinctio rerum doloribus! Aliquam totam quisquam accusamus odio, a itaque, earum facilis minus magni, iure consequuntur voluptatum!"
+  },
+  {
+    "name": "Lego SW",
+    "imageUrl": "./assets/legosw.png",
+    "price": "100.00",
+    "id": 2,
+    "alt": "Product",
+    "section": "Star Wars",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Yoda",
+    "imageUrl": "./assets/yoda.png",
+    "price": "1300",
+    "section": "Star Wars",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+    "id": 3
+  },
+  {
+    "name": "Stormtropper",
+    "imageUrl": "./assets/stormtropper.png",
+    "price": "100.00",
+    "section": "Star Wars",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+    "id": 4
+  },
+  {
+    "name": "Grogu - Baby Yoda",
+    "imageUrl": "./assets/babyyoda.png",
+    "price": "100.00",
+    "section": "Star Wars",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+    "id": 5
+  },
+  {
+    "name": "Kylo Ren",
+    "imageUrl": "./assets/kyloren.png",
+    "price": "100.00",
+    "id": 6,
+    "alt": "Product",
+    "section": "Star Wars",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Controle Xbox",
+    "imageUrl": "./assets/jsxbox.png",
+    "price": "100.00",
+    "id": 7,
+    "alt": "Product",
+    "section": "Console",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "PS5",
+    "imageUrl": "./assets/ps5.png",
+    "price": "100.00",
+    "id": 8,
+    "alt": "Product",
+    "section": "Console",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "SNES",
+    "imageUrl": "./assets/snes.png",
+    "price": "100.00",
+    "id": 9,
+    "alt": "Product",
+    "section": "Console",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Controle Switch",
+    "imageUrl": "./assets/switch.png",
+    "price": "100.00",
+    "id": 10,
+    "alt": "Product",
+    "section": "Console",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Xbox",
+    "imageUrl": "./assets/console.png",
+    "price": "100.00",
+    "id": 11,
+    "alt": "Product",
+    "section": "Console",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "GameBoy",
+    "imageUrl": "./assets/gba.png",
+    "price": "100.00",
+    "id": 12,
+    "alt": "Product",
+    "section": "Console",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Camiseta Atari",
+    "imageUrl": "./assets/atari.png",
+    "price": "100.00",
+    "id": 13,
+    "alt": "Product",
+    "section": "Diversos",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Camisa SNES",
+    "imageUrl": "./assets/camisasnes.png",
+    "price": "100.00",
+    "id": 14,
+    "alt": "Product",
+    "section": "Diversos",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Boneco Sonic",
+    "imageUrl": "./assets/sonic.png",
+    "price": "100.00",
+    "section": "Diversos",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+    "id": 15
+  },
+  {
+    "name": "Relógio",
+    "imageUrl": "./assets/relogio.png",
+    "price": "100.00",
+    "id": 16,
+    "alt": "Product",
+    "section": "Diversos",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Óculos VR",
+    "imageUrl": "./assets/vr.png",
+    "price": "100.00",
+    "id": 17,
+    "alt": "Product",
+    "section": "Diversos",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "Pikachu",
+    "imageUrl": "./assets/pikachu.png",
+    "price": "100.00",
+    "id": 18,
+    "alt": "Product",
+    "section": "Diversos",
+    "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+  },
+  {
+    "name": "QCY QT1",
+    "imageUrl": "https://cdn.awsli.com.br/1000x1000/2394/2394160/produto/151707908/ec863ab0a8.jpg",
+    "price": "134",
+    "section": "Fone",
+    "description": "Fone bluetooth",
+    "id": 19
+  },
+  {
+    "name": "Teste de produto",
+    "imageUrl": "yasmim",
+    "price": "1232",
+    "section": "product",
+    "description": "Fone",
+    "id": 20
   }
-}
+]

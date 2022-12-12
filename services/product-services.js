@@ -1,7 +1,7 @@
 // CRUD - CREATE READ UPDATE DELETE
 //CREATE
 const createProduct = (name, imageUrl, price, section, description) => {
-    return fetch("http://localhost:3000/produto", {
+    return fetch("https://matheusbalves.github.io/eCommerce/db.json/produto", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
@@ -22,14 +22,14 @@ const createProduct = (name, imageUrl, price, section, description) => {
 }
 
 //READ
-const productsList = () => fetch("http://localhost:3000/produto").then(res => res.json());
+const productsList = () => fetch("https://matheusbalves.github.io/eCommerce/db.json/produto").then(res => res.json());
 
-const productDetailId = (id) => fetch(`http://localhost:3000/produto/${id}`).then(res => res.json());
+const productDetailId = (id) => fetch(`https://matheusbalves.github.io/eCommerce/db.json/produto/${id}`).then(res => res.json());
 
 
 //UPDATE
 
-const updateProduct = (name, imageUrl, price, id, section, description) => fetch(`http://localhost:3000/produto/${id}`, {
+const updateProduct = (name, imageUrl, price, id, section, description) => fetch(`https://matheusbalves.github.io/eCommerce/db.json/produto/${id}`, {
     method: 'PUT',
     headers: {
         'Content-Type': 'application/json'
@@ -50,7 +50,7 @@ const updateProduct = (name, imageUrl, price, id, section, description) => fetch
 //DELETE
 
 const deleteProduct = (id) => {
-    return fetch(`http://localhost:3000/produto/${id}`, {
+    return fetch(`https://matheusbalves.github.io/eCommerce/db.json/produto/${id}`, {
         method: 'DELETE',
     })
 }

@@ -1,0 +1,152 @@
+@import "./button.css";
+@import "./inputs.css";
+
+.contact {
+    padding-block: 2rem;
+    background: var(--bg-contato);
+    
+}
+
+.contact .wrapper {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.referencia {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    font-size: 2.4rem;
+}
+
+.referencia img {
+    height: 2.4rem;
+}
+
+.referencia span {
+    color: var(--azul-destaque);
+}
+
+.links_uteis {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.links_uteis a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--cinza);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border .5s;
+}
+
+.links_uteis a:hover {
+    border-bottom: 1px solid var(--cinza);
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form p {
+    margin-bottom: .8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--cinza);
+}
+
+.label_float {
+    margin-bottom: 1.8rem;
+    box-sizing: border-box;
+}
+
+.label_float label {
+    left: 1.5rem;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.input_nome {
+    padding-top: 2.5rem;
+}
+
+.input_nome,
+.textarea_msg {
+    width: 100%;
+}
+
+.textarea_msg {
+    min-height: 3rem;
+}
+
+.textarea::placeholder {
+    color: var(--cinza);
+}
+
+.input_nome,
+.textarea_msg {
+    padding: .8rem 1.2rem;
+    border-radius: .4rem;
+}
+
+.textarea_msg {
+    margin-bottom: .8rem;
+    resize: vertical;
+}
+
+.input_error_message {
+    padding-left: 1rem;
+}
+
+.form button {
+    width: 15rem;
+    height: 4rem;
+}
+
+@media (min-width: 768px) {
+    .contact .wrapper {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+        "r f"
+        "l f";
+        gap: 0 8rem;
+    }
+
+    .referencia{
+        grid-area: r;
+    }
+
+    .links_uteis {
+        grid-area: l;
+        align-items: flex-start;
+    }
+
+    .form {
+        grid-area: f;
+        width: 434px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .contact .wrapper {
+        align-items: flex-start;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+        "r l f";
+        gap: 0 8rem;
+    }
+
+    .form {
+        width: 560px;
+    }
+}

@@ -1,0 +1,17 @@
+.button {
+    align-items: center;
+    background-color: var(--azul-destaque);
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: hsl(214, 78%, 45%);
+}

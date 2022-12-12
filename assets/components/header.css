@@ -1,0 +1,112 @@
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "i l s";
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cinza);
+    grid-area: i;
+}
+
+.logo_img {
+    height: 1.6rem;
+}
+
+.logo_text {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.logo_text_blue {
+    color: var(--azul-destaque);
+}
+
+header .login {
+    grid-area: l;
+}
+
+.login button {
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: .8rem 4rem;
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--azul-destaque);
+    color: var(--azul-destaque);
+    transition: background-color 0.5s;
+}
+
+header .login button:hover {
+    background-color: var(--azul-destaque);
+    color: white;
+}
+
+.search_box {
+    display: none;
+    grid-area: s;
+}
+
+.lupa {
+    padding: 1rem;
+    grid-area: s;
+}
+
+@media (min-width: 768px) {
+
+    nav {
+        grid-template-columns: 1fr 1fr 2fr 2fr 2fr 1fr;
+        column-gap: 1.5rem;
+        grid-template-areas: "i s e e e l";
+    }
+
+    .lupa {
+        display: none;
+    }
+
+    .search_box {
+        display: block;
+        position: relative;
+    }
+
+    .search {
+        display: block;
+        width: 272px;
+        background-color: #f5f5f5;
+        border-radius: 5rem;
+        border: 1px solid transparent;
+        outline: none;
+        padding-inline: 1.5rem;
+        padding-block: 1rem;
+    }
+
+    .box_lupa {
+        padding: 1rem;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: 1020px) {
+
+    .logo_img {
+        height: 3rem;
+    }
+
+    .logo_text {
+        font-size: 3rem;
+    }
+
+    .search {
+        width: 400px;
+    }
+}

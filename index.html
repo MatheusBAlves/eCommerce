@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./variaveis.css" />
+    <link rel="stylesheet" href="./assets/components/header.css" />
+    <link rel="stylesheet" href="./assets/components/highlight.css" />
+    <link rel="stylesheet" href="./assets/components/products.css" />
+    <link rel="stylesheet" href="./assets/components/contact.css" />
+    <link rel="stylesheet" href="./assets/components/footer.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="wrapper">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./assets/logo.png" alt="logo" class="logo_img" />
+            <p class="logo_text">
+              <span class="logo_text_blue">Alura</span>Geek
+            </p>
+          </a>
+        </div>
+        <div class="search_box">
+          <input
+            type="text"
+            class="search"
+            placeholder="O que deseja encontrar?"
+          />
+          <img src="./assets/lupa.png" alt="" class="box_lupa" />
+        </div>
+        <div class="login">
+          <a href="./login.html">
+            <button>Login</button>
+          </a>
+        </div>
+        <div class="lupa">
+          <img src="./assets/lupa.png" alt="" />
+        </div>
+      </nav>
+    </header>
+
+    <main >
+      <section class="highlight">
+        <div class="wrapper">
+          <h2 class="highlight_title">Dezembro Promocional</h2>
+          <p class="highlight_subtitle">
+            Produtos selecionados com 33% de desconto
+          </p>
+          <a href="#Console">
+            <button class="button highlight_button">Ver Consoles</button>
+          </a>
+        </div>
+      </section>
+
+      <section class="geral_products wrapper">
+        <div class="section"></div>
+      </section>
+
+      <section class="contact">
+        <!-- <div class="wrapper">
+          <div class="referencia">
+            <img src="./assets/logo.png" alt="" />
+            <p><span>Alura</span>Geek</p>
+          </div>
+          <div class="links_uteis">
+            <a href="#">Quem somos nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Programa de fidelidade</a>
+            <a href="#">Nossas lojas</a>
+            <a href="#">Quero ser franqueado</a>
+            <a href="#">Anuncie aqui</a>
+          </div>
+          <form class="form">
+            <p>Fale conosco</p>
+            <div class="label_float">
+              <input
+                data-contact="name"
+                type="text"
+                name="nome"
+                id="nome"
+                class="input input_nome"
+                placeholder="nome"
+                required
+                maxlength="40"
+              />
+              <label for="nome">Nome</label>
+              <span class="contact_error_message">Este campo não é válido</span>
+            </div>
+            <div class="label_float">
+              <textarea
+                data-contact="text"
+                name="mensagem"
+                id="msg"
+                cols="5"
+                rows="5"
+                placeholder="Escreva sua Mensagem"
+                class="textarea textarea_msg"
+                required
+                maxlength="120"
+              ></textarea>
+              <span class="contact_error_message">Este campo não é válido</span>
+            </div>
+            <button type="submit" class="button">Enviar Mensagem</button>
+          </form>
+        </div> -->
+      </section>
+    </main>
+
+    <footer>
+      Desenvolvido por <a href="https://github.com/MatheusBAlves" target="_blank">Matheus Alves</a>
+      <br />
+      2022
+    </footer>
+    <script type="module" src="./controllers/product-controller.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script type="module" src="./assets/js/validacoes/app.js"></script>
+  </body>
+</html>
+
+<!-- TODO para aparecer os produtos, execute "json-server --watch db.json" -->
+

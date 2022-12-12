@@ -1,0 +1,36 @@
+.login_session {
+    height: 70vh;
+    background-color: var(--bg-color);
+}
+
+.login_session .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--cinza)
+}
+
+.login_session .input_session {
+    width: 275px;
+}
+
+
+@media (min-width: 1200px) {
+
+    .login_title {
+        font-size: 2rem;
+    }
+
+    .login_session .input.input_session,
+    .login_submit {
+        width: 425px;
+    }
+}

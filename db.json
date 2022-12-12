@@ -127,10 +127,9 @@
       "name": "Boneco Sonic",
       "imageUrl": "./assets/sonic.png",
       "price": "100.00",
-      "id": 15,
-      "alt": "Product",
       "section": "Diversos",
-      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet"
+      "description": "Voluptas voluptatum quidusbam similique, class debitis alias maecenas eveniet",
+      "id": 15
     },
     {
       "name": "Relógio",
@@ -168,13 +167,12 @@
       "id": 19
     },
     {
-      "name": "prodsadas",
-      "imageUrl": "",
+      "name": "Teste de produto",
+      "imageUrl": "yasmim",
       "price": "1232",
-      "id": 20,
-      "alt": "Product",
       "section": "product",
-      "description": "Fone"
+      "description": "Fone",
+      "id": 20
     }
   ],
   "users": {

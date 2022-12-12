@@ -62,11 +62,12 @@
                 type="text"
                 name="img"
                 id="img"
-                data-product="img"
+                data-tipo="product_img"
                 placeholder="URL da imagem"
                 required
               />
               <label for="img">URL da imagem</label>
+              <span class="input_error_message"></span>
             </div>
             <div class="label_float">
               <input
@@ -74,11 +75,12 @@
                 type="text"
                 name="section"
                 id="section"
-                data-product="section"
+                data-tipo="product_section"
                 placeholder="Sessao"
                 required
               />
               <label for="section">Categoria</label>
+              <span class="input_error_message"></span>
             </div>
             <div class="label_float">
               <input
@@ -86,11 +88,12 @@
                 type="text"
                 name="product"
                 id="product"
-                data-product="product"
+                data-tipo="product_product"
                 placeholder="Produto"
                 required
               />
               <label for="product">Nome do Produto</label>
+              <span class="input_error_message"></span>
             </div>
             <div class="label_float">
               <input
@@ -98,12 +101,13 @@
                 type="number"
                 name="price"
                 id="price"
-                data-product="price"
+                data-tipo="product_price"
                 placeholder="Preço"
                 required
                 
               />
               <label for="price">Preço do produto</label>
+              <span class="input_error_message"></span>
             </div>
             <div class="label_float">
               <input
@@ -111,11 +115,12 @@
                 type="text"
                 name="description"
                 id="description"
-                data-product="description"
+                data-tipo="product_description"
                 placeholder="Descrição do produto"
                 required
               />
               <label for="description">Descrição do produto</label>
+              <span class="input_error_message"></span>
             </div>
             <button type="submit" class="button product_button">Adicionar produto</button>
           </form>

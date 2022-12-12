@@ -5,11 +5,11 @@ const form = document.querySelector('[data-product=form]');
 const pegaURL = new URL(window.location);
 const id = pegaURL.searchParams.get('id');
 
-const url = document.querySelector('[data-product=img]');
-const section = document.querySelector('[data-product=section]');
-const product = document.querySelector('[data-product=product]');
-const price = document.querySelector('[data-product=price]');
-const description = document.querySelector('[data-product=description]');
+const url = document.querySelector('[data-tipo=product_img]');
+const section = document.querySelector('[data-tipo=product_section]');
+const product = document.querySelector('[data-tipo=product_product]');
+const price = document.querySelector('[data-tipo=product_price]');
+const description = document.querySelector('[data-tipo=product_description]');
 const title = document.querySelector('.add_product_title');
 const buttonForm = document.querySelector('.product_button');
 

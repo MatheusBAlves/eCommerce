@@ -5,7 +5,7 @@ const newCategory = (category) => {
     const content = `
     <div class="section_titles">
         <h3 class="section_title">${category}</h3>
-        <a href="/todosProdutos.html" class="section_more">
+        <a href="./todosProdutos.html" class="section_more">
             Ver tudo
             <img src="./assets/Vector.png" alt="seta" />
         </a>
@@ -50,7 +50,7 @@ const newProduct = (name, price, imageUrl, id) => {
             <img src="${imageUrl}" alt="img" class="product_img"/>
             <h4 class="product_title">${name}</h4>
             <p class="product_price">${price}</p>
-            <a href="/produto.html?id=${id}" class="product_link">Ver Produto</a>
+            <a href="./produto.html?id=${id}" class="product_link">Ver Produto</a>
     `;
     card.classList.add("product");
     card.innerHTML = content;

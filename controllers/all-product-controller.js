@@ -25,7 +25,7 @@ const newProduct = (name, category, price, imageUrl, id) => {
                     Excluir
                 </button>
                 <button class="button_product button_product--edit">
-                <a href="adicionarProduto.html?id=${id}" alt="">Editar</a>
+                <a href="./adicionarProduto.html?id=${id}" alt="">Editar</a>
                 </button>
             </div>
         </div>
@@ -41,7 +41,7 @@ const newProduct = (name, category, price, imageUrl, id) => {
         <h4 class="product_title">${name} - ${category}</h4>
         <p class="product_price">${price}</p>
         <p class="product_id">#${id}</p>
-        <a href="/produto.html?id=${id}" class="product_link">Ver Produto</a>
+        <a href="./produto.html?id=${id}" class="product_link">Ver Produto</a>
         `;
     }
 

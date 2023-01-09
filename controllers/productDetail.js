@@ -40,7 +40,7 @@ const similarProduct = (name, price, imageUrl, id) => {
             <img src="${imageUrl}" alt="img" class="product_img"/>
             <h4 class="product_title">${name}</h4>
             <p class="product_price">${price}</p>
-            <a href="/produto.html?id=${id}" class="product_link">Ver Produto</a>
+            <a href="./produto.html?id=${id}" class="product_link">Ver Produto</a>
     `;
     card.classList.add("product");
     card.innerHTML = content;

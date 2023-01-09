@@ -165,14 +165,6 @@
       "section": "Fone",
       "description": "Fone bluetooth",
       "id": 19
-    },
-    {
-      "name": "Teste de produto",
-      "imageUrl": "noURL",
-      "price": "1232",
-      "section": "product",
-      "description": "Fone",
-      "id": 20
     }
   ],
   "users": {

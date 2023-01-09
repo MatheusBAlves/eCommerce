@@ -67,8 +67,10 @@ const renderProduct = async () => {
 produtos.addEventListener('click', (e) => {
     let ehBotaoDelete = e.target.className == 'button_product button_product--delete';
     if (ehBotaoDelete) {
+        e.preventDefault();
         const product = e.target.closest('[data-id]');
         let id = product.dataset.id;
+        product.remove();
         productServices.deleteProduct(id);
     }
 })
@@ -82,6 +84,7 @@ function admin() {
     else {
         const loginButton = document.querySelector('#loginButton');
         loginButton.remove();
+        
     }
     renderProduct();
 }

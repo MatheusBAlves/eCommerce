@@ -25,7 +25,9 @@ if (id == null) {
         const newPrice = price.value;
         const newDescription = description.value;
 
-        productServices.createProduct(newProduct, newUrl, newPrice, newSection, newDescription);
+        productServices.createProduct(newProduct, newUrl, newPrice, newSection, newDescription).then(() => {
+            window.location.href = "todosProdutos.html?id=1"
+        })
     });
 }
 // UPDATE PRODUCT

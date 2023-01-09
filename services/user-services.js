@@ -1,4 +1,4 @@
-const userList = () => fetch("https://matheusbalves.github.io/eCommerce/db.json/users").then(res => res.json());
+const userList = () => fetch("http://localhost:3000/users").then(res => res.json());
     
 export const userServices = {
     userList
